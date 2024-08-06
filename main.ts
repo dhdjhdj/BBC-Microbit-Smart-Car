@@ -69,15 +69,15 @@ namespace MiniCar {
         switch (motor) {
             case 1: // M1电机控制
                 if (direction) { 
-                    motor_i2cWrite(0x01, pwmvalue); motor_i2cWrite(0x02, 255); }
-                else { 
                     motor_i2cWrite(0x01, pwmvalue); motor_i2cWrite(0x02, 0); }
+                else { 
+                    motor_i2cWrite(0x01, pwmvalue); motor_i2cWrite(0x02, 255); }
                 break;
             case 2: // M2电机控制
                 if (direction) { 
-                    motor_i2cWrite(0x04, pwmvalue); motor_i2cWrite(0x03, 0); }
-                else { 
                     motor_i2cWrite(0x04, pwmvalue); motor_i2cWrite(0x03, 255); }
+                else { 
+                    motor_i2cWrite(0x04, pwmvalue); motor_i2cWrite(0x03, 0); }
                 break;
         }
     }

@@ -71,13 +71,13 @@ namespace MiniCar {
                 if (direction) { 
                     motor_i2cWrite(0x01, pwmvalue); motor_i2cWrite(0x02, 255); }
                 else { 
-                    motor_i2cWrite(0x02, pwmvalue); motor_i2cWrite(0x01, 0); }
+                    motor_i2cWrite(0x01, pwmvalue); motor_i2cWrite(0x02, 0); }
                 break;
             case 2: // M2电机控制
                 if (direction) { 
                     motor_i2cWrite(0x04, pwmvalue); motor_i2cWrite(0x03, 0); }
                 else { 
-                    motor_i2cWrite(0x03, pwmvalue); motor_i2cWrite(0x04, 255); }
+                    motor_i2cWrite(0x04, pwmvalue); motor_i2cWrite(0x03, 255); }
                 break;
         }
     }

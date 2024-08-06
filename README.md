@@ -1,5 +1,5 @@
 
-> 在 [https://github.com/dhdjhdj/002](https://github.com/dhdjhdj/002) 打开此页面
+> 在 [https://github.com/dhdjhdj/BBC-Microbit-Smart-Car](https://github.com/dhdjhdj/BBC-Microbit-Smart-Car) 打开此页面
 
 ## 用作扩展
 
@@ -8,7 +8,7 @@
 * 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * 点击 **新项目**
 * 点击齿轮图标菜单下的 **扩展**
-* 搜索 **https://github.com/dhdjhdj/002** 并导入
+* 搜索 **https://github.com/dhdjhdj/BBC-Microbit-Smart-Car** 并导入
 
 ## 编辑此项目 ![构建状态标志](https://github.com/mworkfun/pxt-k-bit/workflows/MakeCode/badge.svg)
 
@@ -16,7 +16,7 @@
 
 * 打开 [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * 点击 **导入**，然后点击 **导入 URL**
-* 粘贴 **https://github.com/dhdjhdj/002** 并点击导入
+* 粘贴 **https://github.com/dhdjhdj/BBC-Microbit-Smart-Car** 并点击导入
 
 ## 积木块预览
 

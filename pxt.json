@@ -1,7 +1,7 @@
 {
     "name": "BBV Micro:bit smart car",
     "version": "0.0.0",
-    "description": "BBV Micro:bit smart car",
+    "description": "BBC Micro:bit smart car",
     "dependencies": {
         "core": "*",
         "neopixel": "github:mworkfun/pxt-neopixel-bluetooth",

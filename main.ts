@@ -59,7 +59,7 @@ enum pwm_led_r {
 }
 
 //% color="#AA278D"
-namespace MiniCar {
+namespace SmartCar {
 
     //% block="motor = | %motor Direction = | $direction speed = $pwmvalue"
     //% direction.shadow=timePicker

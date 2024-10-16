@@ -58,13 +58,13 @@ enum pwm_led_r {
     pwm_blue_l = 0x05,
 }
 
-//% color="#00278D"
+//% color="#AA278D"
 namespace SmartCar {
 
     //% block="motor = | %motor Direction = | $direction speed = $pwmvalue"
     //% direction.shadow=timePicker
     //% pwmvalue.min=1 pwmvalue.max=255 
-    //% group="Motor" weight=85
+    //% group="Motor" weight=65
     export function motor(motor: Motorlist, direction: Direction1, pwmvalue: number) {
         switch (motor) {
             case 1: // M1电机控制

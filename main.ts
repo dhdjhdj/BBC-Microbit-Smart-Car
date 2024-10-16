@@ -64,8 +64,9 @@ namespace SmartCar {
     //% block="motor = | %motor Direction = | %direction speed = %pwmvalue"
     //% direction.shadow=timePicker
     //% pwmvalue.min=1 pwmvalue.max=255 
-    //% group="Motor" weight=65
-    export function motor(motor: Motorlist, direction: Direction1, pwmvalue: number) {
+    //% group="Motor" weight=50
+    export function motor(motor: Motorlist, direction: Direction1, pwmvalue: number): void
+    {
         switch (motor) {
             case 1: // M1电机控制
                 if (direction) { 

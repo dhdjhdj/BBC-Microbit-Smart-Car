@@ -61,7 +61,7 @@ enum pwm_led_r {
 //% color="#AA278D"
 namespace SmartCar {
 
-    //% block="motor = | %motor Direction = | $direction speed = $pwmvalue"
+    //% block="motor = | %motor Direction = | %direction speed = %pwmvalue"
     //% direction.shadow=timePicker
     //% pwmvalue.min=1 pwmvalue.max=255 
     //% group="Motor" weight=65

@@ -275,7 +275,7 @@ namespace SmartCar {
     //% group="Servo" weight=69
     //% angle.min=0 angle.max.max=180
     export function setServo(angle: number): void {
-        pins.servoWritePin(AnalogPin.P3, angle)
+        pins.servoWritePin(AnalogPin.P2, angle)
     }
 }
 
